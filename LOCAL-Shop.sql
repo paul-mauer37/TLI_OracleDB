@@ -1,0 +1,19 @@
+-- SELECT * FROM MEMBERTBL;
+--SELECT MEMBERNAME, MEMBERADDRESS FROM MEMBERTBL;
+--SELECT * FROM MEMBERTBL WHERE MEMBERNAME = 'Áö¿îÀÌ';
+
+--CREATE TABLE "my testTBL" (id NUMBER(3));
+--DROP TABLE "my testTBL";
+--CREATE TABLE "MY TESTTBL" (ID NUMBER(3));
+--DROP TABLE "MY TESTTBL";
+
+SELECT * FROM indexTBL WHERE first_name = 'Jack';
+
+CREATE INDEX idx_indexTBL_firstname ON indexTBL(first_name);
+
+SELECT * FROM indexTBL WHERE first_name = 'Jack';
+
+
+
+
+
